@@ -1,13 +1,13 @@
 body{
     background-image: linear-gradient(
-    rgb(30, 141, 231),
-    rgb(29, 40, 42)
-        );
-height: 100vh;
-color: white;
-font-family: sans-serif;
-display: flex;
-flex-direction: column;
+    rgb(30, 231, 97),
+    rgb(26, 193, 223)
+    );
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 #corpo{
