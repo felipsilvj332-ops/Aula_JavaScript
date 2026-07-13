@@ -1,11 +1,25 @@
 const songName = document.getElementById('song-name');
 const song = document.getElementById('audio');
+const play = document.getElementById("play");
 
 songName.innerText = "não definido";
-song.play();
+
+function playsong() {
+    song.play();
+}
+
+play.addEventListener("click", playsong);
+
 
 
 /*
+
+const songName = document.getElementById('song-name');
+const song = document.getElementById('audio');
+
+songName.innerText = "não definido";
+song.play();
+song.pause();
 
 O código acima é um exemplo de como manipular elementos de áudio em uma página web usando JavaScript. Ele seleciona elementos do DOM (Document Object Model) com os IDs 'song-name' e 'audio', define o texto do nome da música como "não definido" e inicia a reprodução da música automaticamente.
 
